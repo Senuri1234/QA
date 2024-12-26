@@ -1,12 +1,5 @@
-// Inside tests/1_unit-tests.js
-
-describe('Basic Assertions', function () {
-  
-    it('#2 should evaluate correctly', function () {
-      assert.isDefined(variable1); // If variable1 is expected to be defined
-      assert.isUndefined(variable2); // If variable2 is expected to be undefined
-      assert.isDefined(variable3); // If variable3 is expected to be defined
-    });
-  
-  });
-  
+it('#2 should evaluate correctly', function () {
+  assert.isUndefined(myVar); // Modify this based on myVar's state
+  assert.isDefined(anotherVar); // Modify this based on anotherVar's state
+  assert.isUndefined(thirdVar); // Modify this based on thirdVar's state
+});
